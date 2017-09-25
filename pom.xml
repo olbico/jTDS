@@ -54,4 +54,30 @@
     </dependency>
   </dependencies>
 
+  <repositories>
+	  <repository>
+		 <id>olbico-visualstudio.com-olbico</id>
+		 <url>https://olbico.pkgs.visualstudio.com/_packaging/Olbico/maven/v1</url>
+		 <releases>
+		  <enabled>true</enabled>
+		 </releases>
+		 <snapshots>
+		  <enabled>true</enabled>
+		 </snapshots>
+		</repository>
+  </repositories>
+  
+  <distributionManagement>
+	  <repository>
+		 <id>olbico-visualstudio.com-olbico</id>
+		 <url>https://olbico.pkgs.visualstudio.com/_packaging/Olbico/maven/v1</url>
+		 <releases>
+		  <enabled>true</enabled>
+		 </releases>
+		 <snapshots>
+		  <enabled>true</enabled>
+		 </snapshots>
+		</repository>
+	</distributionManagement>
+  
 </project>
